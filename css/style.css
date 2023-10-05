@@ -1,0 +1,111 @@
+.my-font{
+	font-family: 'Poppins', sans-serif;	
+	color: black;
+}
+.my-bg{
+	background-color:#F0F0F0;
+}
+.my-nav{
+	background-color:#F0F0F0;
+}
+.space-about-me{
+	margin-top: 100px;
+	padding-right: -40px;
+	
+}
+.my-space{
+	margin-top: 20px;
+	margin-bottom: 50px;		
+}
+.languages{
+	margin-top: -50px;
+	padding-left: 100px
+}
+.rating {
+  color: orange;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color:#F0F0F0 ; /* Grey background */
+  border-color: black;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.eng {width: 50%; background-color: black;}
+.kor {width: 70%; background-color: black;}
+.jp {width: 40%; background-color: black;}
+
+
+
+
+
+body{
+  background-color:#F0F0F0;
+  display:flex;
+ 
+}
+.timeline{
+  background-color:#F0F0F0;
+  color:#fff;
+  max-width: 1200px;
+  
+  
+}
+.timeline ul{
+  border-left:4px solid black;
+  padding:60px 5px;
+}
+.timeline ul li{
+  padding: 20px;
+  position:relative;
+  cursor:grabbing;
+  transition:.5s;
+}
+.timeline ul li span{
+  display:inline-block;
+  background-color:black;
+  padding:10px 10px;
+
+}
+.timeline ul li .content h3{
+  color:black;
+  padding:10px 60px 10px;
+}
+
+.timeline ul li:before{
+  position:absolute;
+  content:'';
+  width:20px;
+  height:20px;
+  background-color:black;
+  border-radius:50%;
+  left:-17px;
+  top:50px;
+  transition:.5s;
+}
+.timeline ul li:hover{
+  background-color:white;
+}
+.timeline ul li:hover:before{
+  background-color:white;
+  box-shadow:5px 5px 20px 10px black;
+}
+h5{
+	color: black;
+}
+.footer{
+	margin-top: 100px;
+	margin-bottom: 20px;
+	text-align: center;
+}
