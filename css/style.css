@@ -2,6 +2,10 @@
 	font-family: 'Poppins', sans-serif;	
 	color: black;
 }
+
+.my-modal{
+	ont-family: 'Poppins', sans-serif;	
+}
 .my-bg{
 	background-color:#F0F0F0;
 }
@@ -10,7 +14,7 @@
 }
 .space-about-me{
 	margin-top: 70px;
-	padding-right: -40px;
+	padding-right: -200px;
 	
 }
 .my-space{
